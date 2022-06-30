@@ -1,5 +1,16 @@
+body, html, #root {
+  width: 100%;
+}
 .App {
   text-align: center;
+  display:flex;
+  justify-content: space-evenly;
+}
+.pokemon img {
+  width: 100px;
+}
+.business img {
+  width: 100px;
 }
 
 
