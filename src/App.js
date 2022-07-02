@@ -1,6 +1,7 @@
 
 import PokemonSearch from './PokemonSearch';
 import YelpSearch from './YelpSearch';
+import PotterSearch from './PotterSearch';
 import './App.css';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <div className="App">
       <PokemonSearch />
       <YelpSearch />
+      <PotterSearch />
     </div>
   );
 }

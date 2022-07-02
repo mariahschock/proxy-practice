@@ -11,3 +11,10 @@ export async function getYelp(filter) {
   
   return data;
 }
+
+export async function getPotter(filter) {
+  const rawData = await fetch(`http://localhost:8888/.netlify/functions/harrypotter?potterQuery=${filter}`);
+  const data = await rawData.json();
+
+  return data;
+}
